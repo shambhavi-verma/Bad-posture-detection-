@@ -70,37 +70,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### Configuration Options
-```bash
-# Run with custom settings
-python main.py --threshold 15 --alert-delay 30 --sensitivity medium
 
-# Show help
-python main.py --help
-```
-
-### Command Line Arguments
-- `--threshold`: Posture angle threshold (degrees, default: 20)
-- `--alert-delay`: Time before alert triggers (seconds, default: 10)
-- `--sensitivity`: Detection sensitivity (low/medium/high, default: medium)
-- `--sound`: Enable/disable sound alerts (default: enabled)
-- `--notifications`: Enable/disable desktop notifications (default: enabled)
-
-## ⚙️ Configuration
-
-Edit `config.json` to customize settings:
-
-```json
-{
-  "posture_threshold": 20,
-  "alert_delay_seconds": 10,
-  "sensitivity": "medium",
-  "enable_sound": true,
-  "enable_notifications": true,
-  "webcam_index": 0,
-  "detection_frequency": 30
-}
-```
 
 ## 📊 How It Works
 
@@ -144,8 +114,7 @@ python -c "import cv2; print([i for i in range(10) if cv2.VideoCapture(i).read()
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
+We welcome contributions! 
 ### Development Setup
 ```bash
 git clone https://github.com/yourusername/posture-detection-system.git
