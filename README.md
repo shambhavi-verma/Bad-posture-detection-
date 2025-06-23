@@ -98,7 +98,7 @@ python main.py
 We welcome contributions! 
 ### Development Setup
 ```bash
-git clone https://github.com/yourusername/posture-detection-system.git
+git clone https://github.com/shambhavi-verma/posture-detection-system.git
 cd posture-detection-system
 pip install -r requirements-dev.txt
 pre-commit install
