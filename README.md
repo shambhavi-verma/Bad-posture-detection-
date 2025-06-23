@@ -30,7 +30,7 @@ A lightweight, real-time posture monitoring system that helps prevent neck strai
 - **Pose Estimation**: MediaPipe for body landmark detection
 - **Notifications**: Cross-platform desktop alerts
 - **Audio Alerts**: Sound cues for immediate attention
-- **GUI**: Simple interface for configuration
+
 
 ## 📋 Requirements
 
@@ -91,26 +91,7 @@ python main.py
 |:--------------:|:-----------------:|:--------------------:|
 | ![Interface](screenshots/interface.png) | ![Alert](screenshots/alert.png) | ![Visualization](screenshots/visualization.png) |
 
-## 🔧 Troubleshooting
 
-### Common Issues
-
-**Webcam not detected:**
-```bash
-# Check available cameras
-python -c "import cv2; print([i for i in range(10) if cv2.VideoCapture(i).read()[0]])"
-```
-
-**Poor detection accuracy:**
-- Ensure good lighting conditions
-- Position camera at eye level
-- Maintain 2-3 feet distance from camera
-- Avoid cluttered backgrounds
-
-**High CPU usage:**
-- Reduce detection frequency in config
-- Lower webcam resolution
-- Close unnecessary applications
 
 ## 🤝 Contributing
 
@@ -123,50 +104,13 @@ pip install -r requirements-dev.txt
 pre-commit install
 ```
 
-### Running Tests
-```bash
-pytest tests/
-python -m coverage run -m pytest
-python -m coverage report
-```
 
-## 📈 Roadmap
-
-- [ ] Machine learning model improvements
-- [ ] Mobile app companion
-- [ ] Exercise recommendations
-- [ ] Posture history tracking
-- [ ] Team/office dashboard
-- [ ] Integration with fitness trackers
-- [ ] Custom alert sounds
-- [ ] Multiple user profiles
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
 
-- [MediaPipe](https://mediapipe.dev/) for pose estimation technology
-- [OpenCV](https://opencv.org/) for computer vision capabilities
-- Healthcare professionals who provided posture guidelines
-- Beta testers and contributors
-
-## 📞 Support
-
-- **Documentation**: [Wiki](https://github.com/yourusername/posture-detection-system/wiki)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/posture-detection-system/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/posture-detection-system/discussions)
-- **Email**: support@posturedetection.com
-
-## 📊 Stats
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/posture-detection-system?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/posture-detection-system?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/posture-detection-system)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/posture-detection-system)
-
----
 
 **⭐ If this project helped improve your posture and health, please give it a star!**
 
