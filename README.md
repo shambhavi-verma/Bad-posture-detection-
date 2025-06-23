@@ -86,7 +86,7 @@ python main.py
 - **Spine Curvature**: Overall posture quality assessment
 
 ## 🎨 Screenshots
- ![Visualization](photos-project/posture-pic.png) 
+ ![Visualization](photos-projects/posture-pic.png) 
 
 
 
