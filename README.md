@@ -53,13 +53,13 @@ pygame>=2.0.0
 
 ### Option 1: Clone Repository
 ```bash
-git clone https://github.com/yourusername/posture-detection-system.git
+git clone https://github.com/shambhavi-verma/posture-detection-system.git
 cd posture-detection-system
 pip install -r requirements.txt
 ```
 
 ### Option 2: Direct Download
-1. Download the latest release from [Releases](https://github.com/yourusername/posture-detection-system/releases)
+1. Download the latest release.
 2. Extract the archive
 3. Install dependencies: `pip install -r requirements.txt`
 
